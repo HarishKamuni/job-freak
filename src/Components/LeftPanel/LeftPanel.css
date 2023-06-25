@@ -1,0 +1,31 @@
+.leftPanel{
+    flex: 0.5;
+    background-color: #555;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 1px;
+    margin-top: -1px;
+}
+
+.leftPanel ul{
+    margin-top: 20px;
+   list-style: none;
+   font-size: 18px;
+   font-weight: 500;
+   text-transform: uppercase;
+   margin-right: 40px;
+   
+}
+.leftPanel ul li{
+    
+    padding: 10px;
+    color: #fff;
+}
+.leftPanel ul li:hover {
+    padding: 10px;
+    color: #111;
+}
+.leftPanel ul a{
+    text-decoration: none;
+}
