@@ -4,7 +4,7 @@ import "./Contact.css";
 const Contact = () => {
   return (
     <div className="contact">
-      <img src="https://images.pexels.com/photos/33999/pexels-photo.jpg?cs=srgb&dl=pexels-negative-space-33999.jpg&fm=jpg" />
+      <img src="https://images.pexels.com/photos/33999/pexels-photo.jpg?cs=srgb&dl=pexels-negative-space-33999.jpg&fm=jpg" alt="contact"/>
       <form className="form">
         <h2>Contact Us</h2>
         <div className="inline">
