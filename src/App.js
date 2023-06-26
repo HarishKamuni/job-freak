@@ -10,10 +10,10 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar/>
-      
+      <div className="main">
         
         <LeftPanel />
-        
+        <div className="rightPanel">
           
           <Routes>
             <Route exact path="/" element={<Home/>} />
@@ -21,8 +21,8 @@ function App() {
             <Route path="/info" element={<Info />} />
             <Route path="/guide" element={<Guide/>} />
           </Routes>
-          
-      
+          </div>
+      </div>
     </BrowserRouter>
   );
 }
